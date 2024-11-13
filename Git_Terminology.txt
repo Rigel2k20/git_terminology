@@ -63,7 +63,7 @@
         $ git log # This will show the commit history of the repository. along with the commit message, the author, and the date. and the commit hash.
         $ git log
         commit 8aae6fe7ef50a38c22fe052021a5a7dd5b374723 (HEAD -> master) # The commit hash is a unique identifier for the commit.
-        Author: Rigel2k20 <abdou.uf88@gmail.com> # The author is the user who made the commit.
+        Author: Rigel2k20 <example@example.com> # The author is the user who made the commit.
         Date:   Tue Nov 12 15:00:17 2024 +0000 # The date is in UTC.
 
             at 'git log' command now # Shows what commit message was used.
@@ -100,7 +100,7 @@
     - Using git log to see the changes:
         $ git log
         commit 8aae6fe7ef50a38c22fe052021a5a7dd5b374723 (HEAD -> master) # HEAD is a pointer to the current branch.
-        Author: Rigel2k20 <abdou.uf88@gmail.com>
+        Author: Rigel2k20 <example@example.com>
         Date:   Tue Nov 12 15:00:17 2024 +0000
 
             at 'git log' command now
