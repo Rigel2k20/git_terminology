@@ -287,4 +287,17 @@
 
     # To create a new branch, use the following command:
         • git branch <branch_name>
-        
+        $ git branch secrect-branch
+    
+    # To check which branch you are currently on, use the following command:
+        • git branch
+        $ git branch
+        * master          # The asterisk (*) indicates the current branch
+          secrect-branch 
+
+    # To switch to a different branch, use the following command:
+        • git checkout <branch_name>
+        $ git checkout secrect-branch
+        # Now you are on the secrect-branch
+
+    

@@ -1,1 +1,6 @@
 This is some random text for testing purposes. on the test1 file.
+
+This some random text that going to be added to private branch
+
+These changes are going to be merged with the master branch, that are normally don't exist in the master branch.
+
