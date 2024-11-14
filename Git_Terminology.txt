@@ -1,5 +1,5 @@
 @ Git is a version control system that allows you to track changes to your code.
-# Some CLI commands:
+1 - Some CLI commands:
     → mdkir - creates a new directory :
         $ mdkir <directory name>
     → cd - changes the current directory :
@@ -19,7 +19,7 @@
 
 ############################################################################
 
-# Git commands:
+2 - Git commands:
     - git init - initializes a new git repository :
         $ git init
     - git Status - shows the status of your repository :  
@@ -140,7 +140,7 @@
     → Then we used "git status" to see the status of the repository.
     → Next will be working on remote git 
 
-# Pushing our file from local to remote repository Master branch
+3 - Pushing our file from local to remote repository Master branch
     • By using the "git push -u origin master"
     $ git push -u origin master
     Enumerating objects: 7, done.
@@ -154,14 +154,14 @@
     * [new branch]      master -> master
     branch 'master' set up to track 'origin/master'.
 
-# Git Ignore file: 
+4 - Git Ignore file: 
     • gitignore is a file that tells git which files to ignore.
     → to create a gitignore file, we can use "touch .gitignore"
     → then we can use "code .gitignore" to open the file in VS Code.
     → we can add the files we want to ignore to the gitignore file.
     * Here are some basic commands to use with gitignore:
 
-# Here are some basic rules that are specific to gitignore file:
+5 - Here are some basic rules that are specific to gitignore file:
     1 - Ignoring files & directories : 
         → Ignore specific files:
             • file.txt 
@@ -268,10 +268,23 @@
         # These are widely used commands and patterns in .gitignore files. 
         Each project might need specific files and folders to be ignored based on its build tools or platform.
 
- 
+##############################################################################################################
 
+6 - Git clone : 
+    # git clone is a command used to clone a remote repository to your local machine with the following command:
+        • git clone <repository_url> 
+        $ git clone https://github.com/clupasq/word-mastermind.git
+        # This command will create a new directory with the name of the repository and clone the repository into it.
+        # You can then navigate to the directory and start working with the repository.
+        # You can also clone a repository into a specific directory by using the following command:
+        • git clone <repository_url> <directory>
 
+###############################################################################################################
 
- 
+7 - Git branches :
+    # A Git branch is an experimental version of a repository 
+    that allows you to work on new features or bug fixes without affecting the main codebase.
 
-    
+    # To create a new branch, use the following command:
+        • git branch <branch_name>
+        
