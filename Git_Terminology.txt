@@ -300,4 +300,22 @@
         $ git checkout secrect-branch
         # Now you are on the secrect-branch
 
-    
+###############################################################################################################
+
+8 - Git fork & pull requests :
+    # A Git fork is a copy of a repository to your remote repository
+    that allows you to make changes to the code without affecting the original repository.
+
+    # Difference between fork and clone :
+        • Fork :
+        # is a copy of a repository on GitHub to your own GitHub account.
+        # You can make changes to the code without affecting the original repository.
+        # You can also create a pull request to merge your changes into the original repository.
+
+        • Clone :
+        # is a copy of a repository on your local machine that you can work on.
+        # You can make changes to the code without affecting the original repository.
+        # You can also create a pull request to merge your changes into the original repository.
+
+    # To fork a repository, go to the repository on GitHub and click the "Fork" button.
+    # This will create a copy of the repository in your own GitHub account.
