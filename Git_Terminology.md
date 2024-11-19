@@ -14,7 +14,7 @@ Git is a version control system that allows you to track changes in your codebas
   mkdir <directory_name>
   ```
 
-  Creates a new directory in the current location.
+  > Creates a new directory in the current location.
 
 - **Change the current directory:**
 
