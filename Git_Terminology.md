@@ -22,7 +22,7 @@ Git is a version control system that allows you to track changes in your codebas
   cd <directory_name>
   ```
 
-  Moves into the specified directory.
+  > Moves into the specified directory.
 
 - **Create a new file:**
 
@@ -30,7 +30,7 @@ Git is a version control system that allows you to track changes in your codebas
   touch <file_name>.<extension>
   ```
 
-  Creates an empty file with the specified name and extension.
+  > Creates an empty file with the specified name and extension.
 
 - **Remove a file:**
 
@@ -38,7 +38,7 @@ Git is a version control system that allows you to track changes in your codebas
   rm <file_name>.<extension>
   ```
 
-  Deletes a file from the current directory.
+  > Deletes a file from the current directory.
 
 - **Remove a directory and its contents:**
 
@@ -46,7 +46,7 @@ Git is a version control system that allows you to track changes in your codebas
   rm -rf <directory_name>
   ```
 
-  Deletes a directory and all its contents.
+  > Deletes a directory and all its contents.
 
 - **List contents of a directory:**
 
@@ -54,7 +54,7 @@ Git is a version control system that allows you to track changes in your codebas
   ls
   ```
 
-  Displays the files and folders in the current directory.
+  > Displays the files and folders in the current directory.
 
 - **List all contents including hidden files:**
 
@@ -62,13 +62,13 @@ Git is a version control system that allows you to track changes in your codebas
   ls -a
   ```
 
-  Shows all files, including hidden files starting with a dot (.).
+  > Shows all files, including hidden files starting with a dot (.).
 
 - **Clear the terminal:**
   ```bash
   clear
   ```
-  Clears the terminal screen.
+  > Clears the terminal screen.
 
 ## Git Commands
 
@@ -78,7 +78,7 @@ Git is a version control system that allows you to track changes in your codebas
   ```bash
   git init
   ```
-  Sets up a new Git repository in the current directory.
+  > Sets up a new Git repository in the current directory.
 
 ### Checking Status
 
@@ -86,7 +86,7 @@ Git is a version control system that allows you to track changes in your codebas
   ```bash
   git status
   ```
-  Shows the state of the working directory and staging area, such as untracked files or changes ready to commit.
+  > Shows the state of the working directory and staging area, such as untracked files or changes ready to commit.
 
 ### Adding Files
 
@@ -94,7 +94,7 @@ Git is a version control system that allows you to track changes in your codebas
   ```bash
   git add <file_name>.<extension>
   ```
-  Moves the specified file to the staging area in preparation for committing.
+  > Moves the specified file to the staging area in preparation for committing.
 
 ### Committing Changes
 
@@ -102,7 +102,7 @@ Git is a version control system that allows you to track changes in your codebas
   ```bash
   git commit -m "Your commit message"
   ```
-  Records changes from the staging area to the repository with a descriptive message.
+  > Records changes from the staging area to the repository with a descriptive message.
 
 ## Advanced Git Commands
 
@@ -114,7 +114,7 @@ Git is a version control system that allows you to track changes in your codebas
   git stash
   ```
 
-  Temporarily removes changes from the working directory, allowing you to work on other tasks.
+  > Temporarily removes changes from the working directory, allowing you to work on other tasks.
 
 - **View stashed changes:**
   ```bash
@@ -131,7 +131,7 @@ Git is a version control system that allows you to track changes in your codebas
   ```bash
   git merge <branch_name>
   ```
-  Combines the specified branch into the current branch.
+  > Combines the specified branch into the current branch.
 
 ### Rebasing
 
@@ -146,7 +146,7 @@ Git is a version control system that allows you to track changes in your codebas
   ```bash
   git reset <file_name>
   ```
-  Removes files from the staging area.
+  > Removes files from the staging area.
   - `--soft`: Keeps changes in the staging area.
   - `--mixed`: Removes changes from the staging area but keeps them in the working directory.
   - `--hard`: Discards all changes.
