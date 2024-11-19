@@ -197,10 +197,3 @@ Git is a version control system that allows you to track changes in your codebas
 - **Forking a Repository:** A copy of a repository on GitHub to your account for making changes without affecting the original repository.
 - **Pull Requests:** A request to merge your changes into the original repository.
 ```
-
-### Additional Tips
-
-- **README.md File**: Ensure your repository has an up-to-date top-level `README.md` file that provides orientation for developers, including sections like Contents, Getting Started, License, Contributing, and Maintainer[5].
-- **Local Preview**: Use software that properly displays Markdown locally to check for errors before committing to the repository[5].
-
-By following these guidelines, your `.md` file will be well-formatted and easily readable both in plain text editors and when rendered on platforms like GitHub.
